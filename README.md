@@ -31,7 +31,7 @@ The analysis of the outcomes based on goals demonstrated an unclear correlation 
 
 ### Limitations of this dataset:
 
-There are many limitations of the dataset worth noting.  For example, in the "outcomes based on goals" analysis, the chart shows two successful spikes between goals of around $25k and $45k but this may not be evenly representatively of each range because some of the data counts are very low in those ranges.  For example, there are only five samples in the range of $25k to $2999.  Thus, the line chart may not account for the potentially misrepresentative percentages due to small sample sizes in certain goal ranges.  Also, when comparing the outcomes based on launch date, the data is strictly focused on theaters and thus may or may not be representative of all kickstarters.
+There are many limitations of the dataset worth noting.  For example, in the "outcomes based on goals" analysis, the chart shows two successful spikes between goals of around $25k and $45k but this may not be evenly representative of each range because some of the data counts are very low in those ranges.  For example, there are only five samples in the range of $25k to $2999.  Thus, the line chart may not account for the potentially misrepresentative percentages due to small sample sizes in certain goal ranges.  Also, when comparing the outcomes based on launch date, the data is strictly focused on theaters and thus may or may not be representative of all kickstarters.
 
 ### Other possible tables and/or graphs that we could create:
 Another possible table or graph that could be useful for both analyses may be a bar chart.   Also, a pie chart may be useful for visualizing percentages for the outcomes based on goals analysis.
