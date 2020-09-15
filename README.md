@@ -7,7 +7,7 @@ The goal and purpose of this project was to compare the data of a variety of kic
 
 ## Analysis and Challenges
 	
-The analysis was performed by utilizing a diverse dataset of kickstarter campaigns in an excel spreadsheet to identify pertinent trends and patterns in order to compare and visualize how launch dates and funding goals affected outcomes.  Challenges in included the need to convert some of the data to new data types and create new columns in order to extract and isolate the appropriate data for the analysis.  Each of these two aspects and their corresponding results are described below:
+The analysis was performed by utilizing a diverse dataset of kickstarter campaigns in an excel spreadsheet to identify pertinent trends and patterns in order to compare and visualize how launch dates and funding goals affected outcomes.  Challenges in included the need to convert some of the data to new data types and create new columns in order to extract and isolate the appropriate data for the analysis.  Each of these aspects and their corresponding results are described below.
 
 ### Analysis of Outcomes Based on Launch Date
 
