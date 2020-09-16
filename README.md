@@ -13,11 +13,13 @@ The analysis was performed by utilizing a diverse dataset of kickstarter campaig
 
 To investigate the relationship in the dataset between kickstarter outcomes and kickstarter launch dates, a pivot table with appropriate filtering was created in a new excel sheet to easily compare the total outcomes for successful, live, failed, and canceled vs each month.  The chart was also filtered appropriately to include only data for theaters.  Additionally, a line chart provided an excellent visual of the correlations.
 
+![pivot table](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/ScreenShot_pivot.png)
 
 ### Analysis of Outcomes Based on Goals
 
 To determine the correlation between kickstarter outcomes and monetary goals of kickstarters, a table was created to isolate twelve ranges of goal values.  Using these goal value ranges, columns for outcomes (including "number of successful, number of failed, and number of canceled) were created to utilize the "=COUNTIFS" function in excel.  This function provided insight to how each goal range correlated with the number of counts in each categorical column.  Additionally, the SUM function was employed in a "total projects" column to see the total of each goal range for all outcome possibilities.  Finally, this "total projects" column allowed for percentages for each column to be calculated in columns of their own.  Using these percentage values for each outcome and their respective goal ranges, an insightful line chart was then created to visualize how goal ranges affected the percentages of various outcomes.
 
+![countifs](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/Screenshot_Countifs_table.png)
 
 ## Results
 
@@ -25,9 +27,13 @@ To determine the correlation between kickstarter outcomes and monetary goals of 
 
 From the analysis, it is clear that the outcomes for campaigns in this dataset had a strong correlation with launch date.  Specifically, the most successful campaigns in the dataset occurred when launch dates were near the "middle" of the year (May, June, and July).  However, the campaigns were far less successful in the beginning and end of each year, especially in December.  Interestingly, no cancellations were made from kickstarters which launched in October in the dataset.
 
+![](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/Screenshot_Outcomes_Launchdate_Chart.png)
+
 ### Conclusions for Outcomes based on Goals:
 
 The analysis of the outcomes based on goals demonstrated an unclear correlation in the dataset.  However, some interesting observations exist.  For example, kickstarter campaigns with goals less than $1000, between $25000 and $2999, and greater than $45,000 fared the best in terms of their successful percentage rate.  Also, there were no canceled kickstarters in any goal range.
+
+![](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/Screenshot_Outcomes_Goals_Chart.png)
 
 ### Limitations of this dataset:
 
