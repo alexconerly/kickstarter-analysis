@@ -11,7 +11,7 @@ The analysis was performed by utilizing a diverse dataset of kickstarter campaig
 
 ### Analysis of Outcomes Based on Launch Date
 
-To investigate the relationship in the dataset between kickstarter outcomes and kickstarter launch dates, a pivot table with appropriate filtering was created in a new excel sheet to easily compare the total outcomes for successful, live, failed, and canceled vs each month.  The chart was also filtered to include only data for theaters.  Additionally, a line chart provided an excellent visual of the correlations.
+To investigate the relationship in the dataset between kickstarter outcomes and kickstarter launch dates, a pivot table with appropriate filtering was created in a new excel sheet to easily compare the total outcomes for successful, live, failed, and canceled for each month.  The chart was also filtered to include only data for theaters.  Additionally, a line chart provided an excellent visual of the correlations.
 
 ![pivot table](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/ScreenShot_pivot.png)
 
