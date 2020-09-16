@@ -7,7 +7,7 @@ The goal and purpose of this project was to compare the data of a variety of kic
 
 ## Analysis and Challenges
 	
-The analysis was performed by utilizing a diverse dataset of kickstarter campaigns in an excel spreadsheet to identify pertinent trends and patterns in order to compare and visualize how launch dates and funding goals affected outcomes.  Challenges in included the need to convert some of the data to new data types and create new columns in order to extract and isolate the appropriate data for the analysis.  Each of these aspects and their corresponding results are described below.
+The analysis was performed by utilizing a diverse dataset of kickstarter campaigns in an excel spreadsheet to identify pertinent trends and patterns for how launch dates and funding goals affected outcomes.  Challenges included the need to convert some of the data to new data types and create new columns in order to extract and isolate the appropriate data for the analysis.  Each of these aspects and their corresponding results are described below.
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -25,19 +25,19 @@ To determine the correlation between kickstarter outcomes and monetary goals of 
 
 ### Conclusions for Outcomes based on Launch Date:
 
-From the analysis, it is clear that the outcomes for campaigns in this dataset had a strong correlation with launch date.  Specifically, the most successful campaigns in the dataset occurred when launch dates were near the "middle" of the year (May, June, and July).  However, the campaigns were far less successful in the beginning and end of each year, especially in December.  Interestingly, no cancellations were made from kickstarters which launched in October in the dataset.
+From the analysis, it is clear that the outcomes for campaigns in this dataset had a strong correlation with launch date.  Specifically, the highest number of successful campaigns in the dataset occurred when launch dates were near the "middle" of the year (May, June, and July).  However, the campaigns were far less successful in the beginning and end of each year, especially in December.  Moreover, there were also more failed campaigns in the middle of the year, indicating there were more campaigns overall in the summer but the spike in May, June, and July was less drastic for failed campaigns.  Interestingly, no cancellations were made from kickstarters which launched in October in the dataset.
 
 ![](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/Screenshot_Outcomes_Launchdate_Chart.png)
 
 ### Conclusions for Outcomes based on Goals:
 
-The analysis of the outcomes based on goals demonstrated an unclear correlation in the dataset.  However, some interesting observations exist.  For example, kickstarter campaigns with goals less than $1000, between $25000 and $2999, and greater than $45,000 fared the best in terms of their successful percentage rate.  Also, there were no canceled kickstarters in any goal range.
+The analysis of the outcomes based on goals demonstrated less correlation in the dataset.  However, some interesting observations exist.  For example, kickstarter campaigns with goals less than $1000, between $25000 and $2999, and greater than $45,000 fared the best in terms of their successful percentage rate.  Also, there were no canceled kickstarters in any goal range.
 
 ![](https://github.com/alexconerly/kickstarter-analysis/blob/master/images_for_readme/Screenshot_Outcomes_Goals_Chart.png)
 
 ### Limitations of this dataset:
 
-There are many limitations of the dataset worth noting.  For example, in the "outcomes based on goals" analysis, the chart shows two successful spikes between goals of around $25k and $45k but this may not be evenly representative of each range because some of the data counts are very low in those ranges.  For example, there are only five samples in the range of $25k to $2999.  Thus, the line chart may not account for the potentially misrepresentative percentages due to small sample sizes in certain goal ranges.  Also, when comparing the outcomes based on launch date, the data is strictly focused on theaters and thus may or may not be representative of all kickstarters.
+There are many limitations of the dataset worth noting.  For example, in the "outcomes based on goals" analysis, the chart shows two successful spikes between goals of around $25k and $45k but this may not be fully representative of each range because some of the data counts are very low in those ranges.  For example, there are only five samples in the range of $25k to $2999.  Thus, the line chart may not account for potentially misrepresentative percentages due to small sample sizes in certain goal ranges.  Also, when comparing the outcomes based on launch date, the data is strictly focused on theaters and thus may or may not be representative of all kickstarters.
 
 ### Other possible tables and/or graphs that we could create:
 Another possible table or graph that could be useful for both analyses may be a bar chart.   Also, a pie chart may be useful for visualizing percentages for the outcomes based on goals analysis.
